@@ -13,6 +13,7 @@ int printColorMap() {
     }
     return i * j;
 }
+
 void testColorPairs() {
     // Buffer to capture the output of printColorMap
     char buffer[1024];

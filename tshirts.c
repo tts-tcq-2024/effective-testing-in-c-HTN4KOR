@@ -1,4 +1,4 @@
-#include <stdio.h>
+hing#include <stdio.h>
 #include <assert.h>
 
 char size(int cms) {
@@ -20,6 +20,6 @@ int main() {
     assert(size(42) == 'M');
     assert(size(38) == '\0');
     assert(size(38) == 'M');
-    printf("All is well (maybe!)\n");
+    printf("Everything is proper\n");
     return 0;
 }

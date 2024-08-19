@@ -20,6 +20,8 @@ int main() {
     assert(size(42) == 'M');
     assert(size(38) == '\0');
     assert(size(38) == 'M');
+   assert(size(38) == 'S');
+    assert(size(42) == 'L');
     printf("Everything is proper\n");
     return 0;
 }
